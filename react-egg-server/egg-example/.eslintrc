@@ -1,0 +1,16 @@
+{
+  "extends": "eslint-config-egg",
+  "env": {
+    "node": 1
+  },
+  "rules": {
+    "quotes": [4, "single", { "avoidEscape": true }]
+  },
+  "prettier/prettier": [
+    "warn",
+    {
+      "singleQuote": true,
+      "semi": true
+    }
+  ]
+}
