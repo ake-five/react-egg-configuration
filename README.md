@@ -1,2 +1,2 @@
 # react-egg-configuration
-学习配置egg
+1. 学习配置egg
