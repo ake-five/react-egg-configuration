@@ -1,0 +1,22 @@
+{
+  "name": "react-server",
+  "version": "1.0.0",
+  "description": "练习egg",
+  "main": "index.js",
+  "scripts": {
+    "start:egg": "cd react-egg-server && cd egg-example && npm run dev",
+    "start:client": "cd react-egg-server && cd my-demo && npm start",
+    "start:all":"npm run start:client && npm run start:egg"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ake-five/react-egg-configuration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ake-five/react-egg-configuration/issues"
+  },
+  "homepage": "https://github.com/ake-five/react-egg-configuration#readme"
+}
