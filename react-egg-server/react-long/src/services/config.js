@@ -1,13 +1,10 @@
 const isProduction = process.env.NODE_ENV === "production";
-const baseURL = isProduction ? "/" : "/base-adapter/fbp/adapter/post";
+const baseURL = isProduction ? "/" : "/base-adapter/login";
 
 // 首页
 export const HomeConfig = {
-    Test: `${baseURL}`,
+  Test: `${baseURL}`,
 };
-
-
-
 
 /**
  *  使用示例
@@ -25,4 +22,3 @@ export const HomeConfig = {
  * 
  * 
  */
-
